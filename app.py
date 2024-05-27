@@ -32,7 +32,7 @@ st.title('Movie Recommender System')
 import streamlit as st
 
 option = st.selectbox(
-    "How would you like to be contacted?",
+    "On which movie you want the recommnedation to be based on?",
     movies['title'].values)
 
 if st.button("Recommend"):
